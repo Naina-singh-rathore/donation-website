@@ -1,0 +1,236 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url("back44.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Quicksand', sans-serif; /* Soft and cute font */
+}
+
+/* Block Section */
+#block {
+    height: 120px;
+    background-color: #FFB6C1; /* Soft pink */
+    border: 2px solid #f8b9c1;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Image Styling */
+#img {
+    margin-left: 230px;
+    margin-right: 250px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 24px;
+    color: #4b4b4b; /* Soft grey */
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+}
+
+/* Container */
+#come {
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    margin: 0px auto;
+    min-height: 700px;
+    margin-top: 40px;
+    border: 1px solid #f0f0f0;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu */
+#menuu {
+    width: 990px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#menuu a {
+    text-decoration: none;
+    display: inline-block;
+    color: #f8b9c1; /* Soft pink */
+    padding: 14px 30px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: 'Dancing Script', cursive; /* Cute cursive font */
+    transition: all 0.3s ease;
+}
+
+#menuu a:hover {
+    background-color: #ff69b4; /* Hot pink */
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Positioning & Styles for Other Elements */
+#likh {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 400px;
+    margin-right: 40px;
+    margin-bottom: 90px;
+}
+
+#po {
+    margin-top: 120px;
+    margin-left: 90px;
+    width: 300px;
+    margin-bottom: 90px;
+}
+
+/* Input Fields */
+.inputFields {
+    width: 210px;
+    height: 40px;
+    border: 1px solid #ff69b4;
+    outline: none;
+    border-radius: 25px;
+    padding-left: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.inputFields:focus {
+    border-color: #ff69b4; /* Pink border on focus */
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+}
+
+/* Button Styling */
+.thebuttons {
+    width: 210px;
+    height: 50px;
+    background-color: #FFB6C1; /* Light pink */
+    border: 2px solid #f8b9c1;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.thebuttons:hover {
+    background-color: #ff69b4; /* Hot pink */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section */
+#about {
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-right: 60px;
+}
+
+/* Form */
+#form {
+    width: 600px;
+    margin-left: 150px;
+    margin-top: 40px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Menu Alignment */
+#menu {
+    position: absolute;
+    margin-left: 1200px;
+}
+
+span {
+    font-family: 'Dancing Script', cursive; /* Elegant cursive */
+    font-size: 30px;
+    color: #6A5ACD; /* Soft purple */
+}
+
+#last {
+    margin-top: 80px;
+    margin-left: 180px;
+}
+
+span a {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: #6A5ACD;
+}
+
+/* Image Section */
+#image {
+    margin-left: 230px;
+    margin-top: 150px;
+    width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Donate Section */
+#donate {
+    margin-left: 230px;
+    margin-top: 97px;
+    width: 900px;
+}
+
+/* Styling for Heading and HR */
+h3 {
+    padding-left: 200px;
+    padding-top: 10px;
+    font-family: 'Lobster', cursive; /* Playful and cute font */
+    font-size: 32px;
+    color: #FF69B4; /* Hot pink */
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+hr {
+    border-style: solid;
+    border-width: 3px;
+    border-top: 1px solid #ff69b4; /* Hot pink */
+}
+
+/* Pre-formatted Text */
+pre {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    color: #6A5ACD;
+}
+
+/* Final Section */
+#set {
+    margin-top: 90px;
+    margin-bottom: 50px;
+    font-family: 'Verdana', sans-serif;
+}
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Animations */
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+}
+
+/* Apply bounce animation only on buttons and the buttons container */
+button, .thebuttons {
+    animation: bounce 1s infinite;
+}
+
+/* Make sure input fields do not have the bounce animation */
+.inputFields {
+    animation: none !important; /* Prevent bouncing */
+}
+
